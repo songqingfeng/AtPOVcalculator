@@ -1,0 +1,14 @@
+- color_mean:
+  - 0.5
+  - 0.5
+  - 0.5
+  color_std:
+  - 0.5
+  - 0.5
+  - 0.5
+  file_len: 28479
+  filepath: "D:\\work\\\u4F1A\u8BAE\u8BBA\u6587\\sjtu\u7ED3\u679C\u6570\u636E\\\u62DF\
+    \u5357\u82A5\u53EF\u89C6\u5316\u53CA\u6570\u636E\u7ED3\u679C\\Mask3D_nnj1\\\u4EE3\
+    \u7801\u6C47\u603B\\plantdata\\data\\processed\\arabidopsis\\validation\\BAM1-3\
+    \ - Cloud.npy"
+  scene: BAM1-3 - Cloud

@@ -1,0 +1,14 @@
+0:
+  color:
+  - 165
+  - 42
+  - 42
+  name: Stem
+  validation: true
+1:
+  color:
+  - 0
+  - 255
+  - 0
+  name: Leaf
+  validation: true
