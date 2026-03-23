@@ -1,0 +1,32 @@
+# @package _group_
+defaults:
+  - datasets: arabidopsis
+
+train_mode: train
+validation_mode: validation
+test_mode: validation
+
+dataset_name: "arabidopsis"
+data_dir: "data/processed/arabidopsis"
+image_augmentations_path: "conf/augmentation/albumentations_aug.yaml"
+volume_augmentations_path: "conf/augmentation/volumentations_aug.yaml"
+ignore_label: 255
+add_raw_coordinates: true
+add_colors: true
+add_normals: true
+in_channels: 6
+num_labels: 3  # 0: Stem, 1: Leaf
+add_instance: ${general.add_instance}
+task: ${general.task}
+label_offset: 0
+
+pin_memory: true
+num_workers: 4
+batch_size: 4
+test_batch_size: 1
+cache_data: false
+
+# voxel size 0.05 is 5mm for the plant dimentions
+voxel_size: 0.05 
+reps_per_epoch: 1
+cropping: false
